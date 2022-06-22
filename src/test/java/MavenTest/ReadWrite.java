@@ -24,7 +24,7 @@ public class ReadWrite {
 	String s=sheet.getRow(row).getCell(col).getStringCellValue();
 	return s;
 	}
-	
+	//s
 	public static void main(String[] args) throws IOException, InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
